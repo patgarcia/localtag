@@ -21,8 +21,6 @@ function EditForm(props) {
         setPostURL('/'+(location.pathname.slice(1).split('/').shift() || 'collections'));
     }, [location])
 
-    useEffect
-
     function handlePost(ev) {
         ev.preventDefault();
         const data = new FormData(ev.target);
