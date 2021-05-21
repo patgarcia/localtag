@@ -42,24 +42,24 @@ function UserNavigation(props) {
   }
 
   return (
-    <div>
+    <div style={{textAlign: 'center'}}>
       { errMessage && <p style={{color:'red'}}>{errMessage}</p> }
       {!showNav ? (
         <form onSubmit={handleLogin}>
           <TextField name="email" type="text" label="email"/>
           <TextField name="password" type="password" label="password"/>
-          <button>Login</button>
+          <button style={{display:'block', margin: '20px auto'}}>Login</button>
         </form>
       ) : (
         <nav>
-          <h3>Display-name</h3>
-          <ul>
-            <li>
+          <h3>Hello</h3>
+          <ul style={{listStyle: 'none', padding: 'none', margin: 'none', textAlign: 'center', 'padding-inline-start':0}}>
+            {/* <li>
               <button>Change Password</button>
-            </li>
-            <li>
+            </li> */}
+
               <Button variant="contained" color="primary" onClick={handleLogout}>Logout</Button>
-            </li>
+
           </ul>
         </nav>
       )}

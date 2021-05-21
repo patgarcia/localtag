@@ -10,6 +10,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
+import AddLocationIcon from '@material-ui/icons/AddLocation';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -44,17 +45,18 @@ function CollectionCard({data}) {
           <IconButton aria-label="settings">
           </IconButton>
         }
-        title={data.name}
+        // title={data.name}
+        title={'#'+ data.tag.name}
       />
       <Link to={`/collections/${data._id}`}>
         <CardMedia style = {{ height: "150px" }} image={data.image.hq_image_url} />
       </Link>
       <CardContent>
         <Typography variant="body2" color="textPrimary" component="p">
-         {data.location.city}, {data.location.state}
+         <AddLocationIcon color="secondary" style={{ fontSize: '1rem', marginRight:'3px'}} />{data.location.city}, {data.location.state}
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-         #{data.tag.name}
+         {/* #{data.tag.name} */}
         </Typography>
       </CardContent>
     </Card>
