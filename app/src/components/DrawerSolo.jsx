@@ -97,7 +97,7 @@ function DrawerSolo(props) {
           </IconButton>
         </div>
         <Divider />
-        <List>
+        <List p={2}>
             <UserNavigation/>
         </List>
       </Drawer>
