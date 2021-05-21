@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# local Tag
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Local Tag is an app which allows user to upload their photos to a publicly available collection. The tag system gives the options of including a tag and a location. Users are able to edit the tags of their images.
 
-## Available Scripts
+## Brief Example
 
-In the project directory, you can run:
+## Planning Process
+We began by brainstorming together.
+![miro planning](https://i.imgur.com/INT2cmc.png)
+![miro planning](https://i.imgur.com/AeMsVxF.png)
 
-### `npm start`
+Then we moved to wireframes.
+![figma planning](https://i.imgur.com/thgIFIm.png)
+![figma planning](https://i.imgur.com/8s1z4ev.png)
+![server map](https://i.imgur.com/aXsnELK.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## List of Features / User Stories
+- As the user I want to receive up-to-date and relevant data about my query.
+- As the user I want a seamless experience with no dead space, pages, or loading times.
+- As the user I want real-time feedback on my input so I'm engaged with the application.
+- As the user I want an intuitive design so I know how to navigate and what the site is for.
+- As the user I want other usernames displayed so I know who provided what information.
+- As the user I want to upload my images and tag them with a descriptive tag and a location tag.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## List of Technologies Used
 
-### `npm test`
+## Tech Stack
+- Mongo
+- Express
+- React
+- Node
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Languages
+- CSS 3
+- HTML 5
+- JavaScript
+- Markdown
 
-### `npm run build`
+### Libraries
+- bcryptjs
+- chai
+- chai-http
+- express
+- material-ui
+- mocha
+- mocha-junit-report
+- mongoose
+- mongoose-type-url
+- nodemon
+- react
+- react-dom
+- react-router-dom
+- react-scripts
+- supertest
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation Instructions / Getting Started
+No installation necessary. Simply visit the deployed application.
+LINK TO DEPLOYED APPLICATION
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contribution Guidelines
+Fork, clone, and submit a pull request to the corresponding repositories:
+- [Backend repository](https://github.com/patgarcia/localtag-backend)
+- [Frontend repository](https://github.com/patgarcia/localtag-frontend)
